@@ -1,0 +1,42 @@
+body {
+  
+    background-image: url("../pow-star.png");
+    background-size:100%;
+    background-color: white;
+
+}
+
+.spacer {
+    padding:5%;
+    text-align:center;
+    text-shadow:1px 1px 2px black;
+    color:green;
+    font: 3em Serif;
+}
+.game {
+    width:396px;
+    height:396px;
+    margin:auto;
+}
+
+.square {
+    background: rgba(255,255,255,.9);
+    float:left;
+    width:130px;
+    height:130px;
+    cursor:pointer;
+    border: 1px solid green;
+    box-shadow: 8px 8px 15px #000;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    text-align: center;
+    font-size:100px;
+}
+
+.x {
+    background-color: green;
+}
+
+.o {
+    background-color: green;
+}
